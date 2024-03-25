@@ -1,0 +1,68 @@
+.header{
+    background: url(back\ IMG.jpeg) 0 0 cover no-repeat;}
+
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar ul li{
+    color: azure    ;
+}
+
+element.style{
+    display: flex
+}
+li{
+    list-style: none;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-list{
+    display: flex;
+
+}
+
+.wrap-info{
+    display: flex;
+}
+
+.wrap-info li{
+    color: azure;
+}
+
+.container{
+    max-width: 556px;
+    padding: 154px 0 300px 0;
+    text-align: center;
+}
+
+.container h3{
+color: rgb(214, 126, 53);
+font-family: Tinos;
+font-size: 80px;
+font-weight: 400;
+}
+.container h3 span{
+    font-size: 80px;
+    line-height: 1.15;
+}
+
+.title{
+color: rgb(255, 255, 255);
+font-family: 'Open Sans';
+font-size: 18px;
+font-weight: 400;
+/*line-height не пришется в px! Пишется в проценты. font-size делим на line-height
+Пишем либо в процентах, либо просто  */
+line-height: 1.4;
+/*  letter-spacing расстояние между буквами*/
+letter-spacing: 0%;
+text-align: left;
+}
